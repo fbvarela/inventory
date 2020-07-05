@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="inventory">
+    <h2>Inventory</h2>
+    <table class="table table-bordered table-striped">
+        <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Items
+        </tr>
+        </thead>
+        <tbody>
+
+        <tr v-for="report in inventory">
+            <td>{{ report.identifier }}</td>
+            <td>{{ report.name }}</td>
+            <td>{{ report.numberOfItems }}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="/inventory.js" type="text/javascript"></script>
+<link href="/styles.css" rel="stylesheet">
+
+</body>
+</html>

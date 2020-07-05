@@ -1,0 +1,10 @@
+{
+  "name": "inventory",
+  "version": "1.0.0",
+  "dependencies": {
+    "vue-router": "^3.3.4"
+  },
+  "devDependencies": {
+    "axios": "^0.19.2"
+  }
+}
